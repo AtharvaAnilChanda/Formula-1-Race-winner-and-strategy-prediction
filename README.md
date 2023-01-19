@@ -15,3 +15,9 @@ Since we wanted this to be decently accurate , we have considered the data set o
 ## Getting Started
 1. Download all the datasets and notebooks provided.
 2. Install the library 'FastF1' incase you require to download your own datasets.
+
+
+## Running the Race Winner Model
+1. The dataset that needs to be Pre-Processed is provided as 'PreProcessingDataset.csv'. This can be run on the 'F1_PreProcessing_RaceWinner' notebook to eliminate unwanted information.
+2. The 'Test_RaceWinner' and 'Train_RaceWinner' datasets should be loaded on to the 'F1_RaceWinner' notebook.
+3. On running the notebook, the predictions of the position each driver is likely to finish appears. This is segregated into 3 classes (0, 1, 2) where 0 implies top 3-4, 1 implies 4-10 and 2 implies anything after that.
