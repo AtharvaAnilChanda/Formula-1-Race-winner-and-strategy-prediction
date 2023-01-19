@@ -28,3 +28,8 @@ Since we wanted this to be decently accurate , we have considered the data set o
 2. Run the notebook. All Pre-Processing is handled in it.
 3. The life span of each tyre for each respective driver as well as the average life span will be displayed.
 4. Based on this, we will be able to predict what combination of tyres will be most beneficial for each driver.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
